@@ -11,6 +11,12 @@ header{
     background: #202020;
      
 }
+
+a
+{
+    text-decoration-line: none;
+    color: white;
+}
 /* body{
     margin: 0px;
 }
@@ -40,42 +46,112 @@ header{
     font-size: 20px;
     line-height: 30px; 
 } */
-.main{
+body{
+    padding: 0;
+    margin: 0;
+}
+
+ul
+{
+    margin: 0;
+}
+
+.main
+{
     background: #121212;
 }
 
-.main__GameFor{
-    color: white;
+.main__Line
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    width: 80%;
 }
 
-.main__Game1Text{
-    color: white;
+.main__ArrowLeft
+{
+    margin-right: 20px;
 }
 
-.main__Game2Text{
-    color: white;
+.main__ArrowRight
+{
+    margin-left: 20px;
 }
 
-.main__Game3Text{
-    color: white;
+.main__Best
+{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-top: 70px;
 }
 
-.main__Game4Text{
-    color: white;
+.main_BestGameLink
+{
+    width: 60%;
+    height: 40%; 
 }
 
-.main__Game5Text{
-    color: white;
+.main_BestGameImage
+{
+    width: 100%;
+    height: 100%; 
 }
 
-.main__Game6Text{
-    color: white;
+.main__BestHeadline
+{
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    white-space: nowrap;
 }
 
-.footer{
+.main__GameFor
+{
+    color: white;
+    margin-bottom: 50px;
+}
+
+.main__Container
+{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main__Game
+{
+    width: 445px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.main__GameHeadline
+{
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 0;
+    font-size: 36px;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    white-space: nowrap;
+}
+
+.footer
+{
     background: #202020;
 }
 
-.footer__TrapGamesInc{
+.footer__TrapGamesInc
+{
     color: #6B6B6B;
 }
