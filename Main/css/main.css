@@ -1,64 +1,68 @@
-
-li{
-    list-style-type: none;  
-     /* убрать маркировку */
-}
-
-
-header{
-    width: 100%;
-    /* height: 86px; */
-    background: #202020;
-     
-}
-
 a
 {
     text-decoration-line: none;
     color: white;
 }
-/* body{
-    margin: 0px;
-}
-.header__img{
-    width: 100.87px;
-    height: 90.49px;
-    left: 3px;
-    top: -7px;
-}
-.header__logoText{
-    position: absolute;
-    width: 85.56px;
-    height: 43.75px;
-    left: 85px;
-    top: 20px;
-}
-.header__navitem{
-    color: white;
-    position: absolute;
-    width: 208px;
-    height: 30px;
-    left: 1367px;
-    top: 33px;
-    font-family: 'Lexend';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px; 
-} */
-body{
+
+body
+{
     padding: 0;
     margin: 0;
 }
 
-ul
+.header
 {
-    margin: 0;
+    width: 100%;
+    background: #202020;
+    position: fixed;
+}
+
+.header__Logo
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.header__LogoText
+{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.header__LineAbout
+{
+    position: absolute;
+    left: 64%;
+    margin-top: 20px;
+}
+
+.header__AboutText
+{
+    position: absolute;
+    left: 65%;
+    margin-top: 45px;
+}
+
+.header__LogIn
+{
+    position: absolute;
+    left: 80%;
+    margin-top: 30px;
+}
+
+.header__LogInText
+{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
 }
 
 .main
 {
     background: #121212;
+    padding-top: 100px;
 }
 
 .main__Line
@@ -151,7 +155,36 @@ ul
     background: #202020;
 }
 
+.footer__SocialMediaContainer
+{
+    width: 73%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.footer__SocialMedia
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer__Line
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .footer__TrapGamesInc
 {
     color: #6B6B6B;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-size: 20px;
+    margin-bottom: 0;
 }
