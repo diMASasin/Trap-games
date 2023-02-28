@@ -34,20 +34,20 @@
     </header>
 
     <main class="main">
+        <div class="main__Headline"><h1>Загрузить игру</h1></div>
 
-        <input placeholder="Введите название" class="main__enterName"></input>
+        <input placeholder="Введите название" class="main__inputField main__enterName"></input>
 
-        <input placeholder="Ссылка на iFrame" class="main__linkiFrame"></input>
+        <input placeholder="Ссылка на iFrame" class="main__inputField main__linkiFrame"></input>
 
-        <p class="main__cover">Обложка</p>
-    
-        <button class="main__button main__choosefile">
-            Выбрать файл
-        </button>
+        <div class="main__Cover">
+            <div class="main__CoverUploading">
+                <div><label class="main__coverLabel">Обложка</label></div>
+                <div><input type="file" class="main__ChooseFile"></input></div>
+            </div>
+            <img src="img/NoImage.png" alt="TRAP Games" class="main__coverGame"></img>
+        </div>
 
-        <!-- <div class="main__coverGame">
-            <img src="img/miniGTA.png" alt="TRAP Games"></img>
-        </div> -->
 
         <button class="main__button main__addgame">
             Добавить игру
