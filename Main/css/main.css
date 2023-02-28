@@ -63,6 +63,7 @@ body
 {
     background: #121212;
     padding-top: 100px;
+    padding-bottom: 60px;
 }
 
 .main__Line
@@ -119,6 +120,7 @@ body
 {
     color: white;
     margin-bottom: 50px;
+    margin-left: 20px;
 }
 
 .main__Container

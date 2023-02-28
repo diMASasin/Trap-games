@@ -126,6 +126,16 @@ input::file-selector-button
     padding-right: 20px;
 }
 
+input::file-selector-button:hover
+{
+    background-color: #3b3083; 
+}
+
+input::file-selector-button:active
+{
+    background-color: #231c50; 
+}
+
 .main__button
 {
     background-color: #443795;
@@ -138,6 +148,16 @@ input::file-selector-button
 
     margin: 0 auto;
     display: block;
+}
+
+.main__button:hover
+{
+    background-color: #3b3083; 
+}
+
+.main__button:active
+{
+    background-color: #231c50; 
 }
 
 .main__CoverUploading
