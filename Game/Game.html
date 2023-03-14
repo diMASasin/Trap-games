@@ -9,7 +9,6 @@
 </head>
 <body>
     <header class="header">
-    
         <a href="../Main/index.html">
             <img src="../img/Logo.png" alt="logo" class="header__Logo"></img>
         </a>
@@ -17,11 +16,6 @@
         <a href="../Main/index.html">
             <img src="../img/LogoText.png" class="header__LogoText" alt="TRAP Games"></img>
         </a>
-    
-        <span class="header__About">
-            <img src="../img/LineAbout.png" class="header__LineAbout" alt="TRAP Games"></img>
-            <a href="../About/About TG.html" class="header__AboutText">О TRAP Games</a>
-        </span>
 
         <span class="header__LogIn">
             <a href="../LogIn/LogIn.html">
@@ -32,26 +26,30 @@
     </header>
 
     <main class="main">
-        <iframe src="https://dimasasin.github.io/RobotRunnerVK_DirectGames/" width="800" height="600" class="main__gameFrame">Ваш браузер не поддерживает плавающие фреймы!</iframe>
+        <iframe src="https://dimasasin.github.io/RobotRunnerVK_DirectGames/" class="main__gameFrame">Ваш браузер не поддерживает плавающие фреймы!</iframe>
         <h1>Robot Runner</h1>
 
         <a href="#"><img src="img/Like.png" alt="Like" class="main__like"></a>
-        <p>198</p>
+        <p class="amount">198</p>
         <a href="#"><img src="img/Dislike.png" alt="Dislike" class="main__dislike"></a>
 
-        <p>Комментарии</p>
-        <input placeholder="Введите текст комментария..." class="main__input main__inputComment"><a href="#"><img src="img/EnterArrow.png" alt=""></a></input>
+        <p class="main__comments">Комментарии</p>
+        
+        <div class="border">
+            <input placeholder="Введите текст комментария..." class="main__input"></input>
+            <a class="EnterArrow" href="#"><img src="img/EnterArrow.png" alt=""></a>
+        </div>
 
         <div class="main__comment">
             <p class="main__comment__name">Вася Пупкин 228</p>
-            <p>Лучшая игра в мире. Как же я люблю в нее играть :0 :)))))</p>
-            <div class="main__comment__line"></div>
+            <p class="comm">Лучшая игра в мире. Как же я люблю в нее играть :0 :)))))</p>
+            <div class="main__comment__line"> <img src="img/LineComments.png" alt="comment"></div>
         </div>
 
         <div class="main__comment">
             <p class="main__comment__name">Павел Шампанов</p>
-            <p>Люблю эту игру меньше чем Brawl Stars, но это не делает её плохой, она прекрасна :0 </p>
-            <div class="main__comment__line"></div>
+            <p class="comm">Люблю эту игру меньше чем Brawl Stars, но это не делает её плохой, она прекрасна :0 </p>
+            <div class="main__comment__line"> <img src="img/LineComments.png" alt="comment"></div>
         </div>
     </main>
 
