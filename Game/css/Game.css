@@ -15,15 +15,51 @@ h1
     font-size: 4.5rem;
 }
 
-.main__like{
+.main__like
+{
     margin-left: 4%;
+    width: 96px; /* Ширина изображения */
+    height: 96px; /* Высота изображения */
+    background: url(../img/Like.png);
+    background-size: 100%;
+    margin-right: 0;
+    display: inline-block;
 }
 
-.main__dislike{
+.main__liked
+{
+    margin-left: 4%;
+    width: 96px; /* Ширина изображения */
+    height: 96px; /* Высота изображения */
+    background: url(../img/Liked.png);
+    background-size: 100%;
+    margin-right: 0;
+    display: inline-block;
+}
+
+.main__dislike
+{
     margin-left: 2%;
+    width: 96px; /* Ширина изображения */
+    height: 96px; /* Высота изображения */
+    background: url(../img/Dislike.png);
+    background-size: 100%;
+    margin-right: 0;
+    display: inline-block;
 }
 
-.amount{
+.main__disliked
+{
+    margin-left: 2%;
+    width: 96px; /* Ширина изображения */
+    height: 96px; /* Высота изображения */
+    background: url(../img/Disliked.png);
+    background-size: 100%;
+    margin-right: 0;
+    display: inline-block;
+}
+
+.main__amount{
     display: inline-block;
     margin-top: 1px;
     margin-bottom: 10px;
