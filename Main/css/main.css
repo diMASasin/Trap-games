@@ -10,6 +10,11 @@ body
     margin: 0;
 }
 
+li
+{
+    list-style-type: none;
+}
+
 .header
 {
     width: 100%;
@@ -90,14 +95,33 @@ body
     display:flex;
     align-items:center;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     padding-top: 70px;
+}
+
+.selector__list
+{
+    margin: 0;
+    padding: 0;
+}
+
+.selector__item_active
+{
+    width: 100%;
+    height: 56%;
+    display: inline-block;
+}
+
+.selector__item
+{
+    width: 0;
+    height: 0;
 }
 
 .main_BestGameLinkActive
 {
-    width: 60%;
-    height: 40%; 
+    width: 100%;
+    height: 100%; 
 }
 
 .main_BestGameLink
@@ -106,32 +130,17 @@ body
     height: 0%; 
 }
 
-.main_BestGameImageActive
-{
-    width: 100%;
-    height: 100%; 
-}
-
 .main_BestGameImage
 {
-    width: 0%;
-    height: 0%; 
-}
-
-.main__BestHeadlineActive
-{
-    text-align: center;
-    font-size: 40px;
-    margin: 0;
-    text-overflow: ellipsis;
-    overflow: hidden; 
-    white-space: nowrap;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
 }
 
 .main__BestHeadline
 {
     text-align: center;
-    font-size: 0px;
+    font-size: 40px;
     margin: 0;
     text-overflow: ellipsis;
     overflow: hidden; 
@@ -160,6 +169,11 @@ body
     width: 445px;
     margin-bottom: 20px;
     margin-right: 20px;
+}
+
+.main__Game_img
+{
+    border-radius: 30px;
 }
 
 .main__GameHeadline
