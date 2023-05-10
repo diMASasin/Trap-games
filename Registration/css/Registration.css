@@ -52,7 +52,7 @@ body
 .main__LogoText
 {
     margin-top: 15px;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
 }
 
 .main__input
@@ -98,7 +98,7 @@ input::file-selector-button:active
 
     margin: 0 auto;
     margin-top: 34px;
-    margin-bottom: 34px;
+    margin-bottom: 14px;
     display: block;
 }
 
@@ -125,7 +125,8 @@ input::file-selector-button:active
     font-size: 16px;
 }
 
-.footer__TrapGamesInc
+.main__userAlreadyExist
 {
-    color: #6B6B6B;
+    font-size:15px;
+    color: #ff3442;
 }

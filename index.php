@@ -12,23 +12,7 @@
 </html>
 
 <body>
-
-    <header class="header">
-        <a href="index.html">
-            <img src="img/Logo.png" alt="logo" class="header__Logo"></img>
-        </a>
-    
-        <a href="index.html">
-            <img src="img/LogoText.png" class="header__LogoText" alt="TRAP Games"></img>
-        </a>
-
-        <span class="header__LogIn">
-            <a href="LogIn/LogIn.html">
-                <img src="img/Login.png" alt="TRAP Games"></img>
-            </a>
-            <a href="LogIn/LogIn.html" class="header__LogInText">Вход</a>
-        </span>
-    </header>
+    <?php include 'header.php';?>
 
     <main class="main">
 
@@ -36,19 +20,19 @@
             <img class="main__ArrowLeft" src="main_img/ArrowLeft.png" alt="TRAP Games"></img>
             <ol class="selector__list">
                 <li class="selector__item">
-                    <a href="Game/Game.html" class="main_BestGameLinkActive">
+                    <a href="Game/Game.php" class="main_BestGameLinkActive">
                         <img  class="main_BestGameImage" src="main_img/GTA.png" alt="TRAP Games"></img>
                         <p class="main__BestHeadline">Grand Theft Auto V</p>
                     </a>
                 </li>
                 <li class="selector__item">
-                    <a href="Game/Game.html" class="main_BestGameLinkActive">
+                    <a href="Game/Game.php" class="main_BestGameLinkActive">
                         <img  class="main_BestGameImage" src="main_img/gachi.png" alt="TRAP Games"></img>
                         <p class="main__BestHeadline">Gachi Dungeon Master</p>
                     </a>
                 </li>
                 <li class="selector__item">
-                    <a href="Game/Game.html" class="main_BestGameLinkActive">
+                    <a href="Game/Game.php" class="main_BestGameLinkActive">
                         <img  class="main_BestGameImage" src="main_img/WEDNESDAY!.png" alt="TRAP Games"></img>
                         <p class="main__BestHeadline">Wednesday</p>
                     </a>
@@ -63,42 +47,42 @@
 
         <div class="main__Container">
             <div class="main__Game">
-                <a href="Game/Game.html">
+                <a href="Game/Game.php">
                     <img class="main__Game_img" src="main_img/Game 1.png" alt="TRAP Games"></img>
                     <div><p class="main__GameHeadline">Dying Light 2</p></div>
                 </a>
             </div>
 
             <div class="main__Game">
-                <a href="Game/Game.html">
+                <a href="Game/Game.php">
                     <img class="main__Game_img" src="main_img/Game 2.png" alt="TRAP Games"></img>
                     <div><p class="main__GameHeadline">Cuphead</p></div>
                 </a>
             </div>
 
             <div class="main__Game">
-                <a href="Game/Game.html">
+                <a href="Game/Game.php">
                     <img class="main__Game_img" src="main_img/Game 3.png" alt="TRAP Games"></img>
                     <div><p class="main__GameHeadline">Minecraft</p></div>
                 </a>
             </div>
 
             <div class="main__Game">
-                <a href="Game/Game.html">
+                <a href="Game/Game.php">
                     <img class="main__Game_img" src="main_img/Game 4.png" alt="TRAP Games"></img>
                     <div><p class="main__GameHeadline">Counter-Strike: Global Offensive</p></div>
                 </a>
             </div>
 
             <div class="main__Game">
-                <a href="Game/Game.html">
+                <a href="Game/Game.php">
                     <img class="main__Game_img" src="main_img/Game 5.png" alt="TRAP Games"></img>
                     <div><p class="main__GameHeadline">Winx Club</p></div>
                 </a>
             </div>
 
             <div class="main__Game">
-                <a href="Game/Game.html">
+                <a href="Game/Game.php">
                     <img class="main__Game_img" src="main_img/Game 6.png" alt="TRAP Games"></img>
                     <div><p class="main__GameHeadline">Among Us</p></div>
                 </a>
@@ -106,20 +90,6 @@
         </div>
     </main>
 
-    <footer class="footer">
-        
-        <div class="footer__SocialMediaContainer">
-            <a href="https://t.me/addstickers/SkibidiDopDopDopYesYesYes">
-                <img class="footer__SocialMedia" src="img/Telegram.png" alt="TRAP Games"></img>
-            </a>
-            <img class="footer__SocialMedia" src="img/Inst.png" alt="TRAP Games"></img>
-            <img class="footer__SocialMedia" src="img/YouTube.png" alt="TRAP Games"></img>
-        </div>
-
-        <img class="footer__Line" src="img/Line.png" alt="TRAP Games"></img>
-
-        <p class="footer__TrapGamesInc" >© TRAP Games, Inc., 2023 г. Все права защищены. TRAP, TRAP Games, логотип TRAP Games, Fortnite, логотип Fortnite, Unreal, Unreal Engine, логотип Unreal Engine, Unreal Tournament и логотип Unreal Tournament являются товарными знаками или зарегистрированными товарными знаками TRAP Games, Inc. в Великой Российской Федерации и остальных странах. Прочие бренды или названия продуктов являются товарными знаками соответствующих владельцев.</p>
-
-    </footer>
+    <?php include 'footer.php';?>
 </body>
 </html>
